@@ -1,4 +1,4 @@
-<?php $title = 'Home';
+<?php $title = 'Products';
 require_once 'templates/header.php';
 ?>
 

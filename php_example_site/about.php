@@ -1,4 +1,4 @@
-<?php $title = 'Home';
+<?php $title = 'About Us';
 require_once 'templates/header.php';
 ?>
 <div class="row space">

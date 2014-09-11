@@ -1,4 +1,4 @@
-<?php $title = 'Home';
+<?php $title = 'Calendar';
 require_once 'templates/header.php';
 $month = (empty($_GET['month'])) ? date("n", time()) : $_GET['month'];
 $year = (empty($_GET['year'])) ? date("Y", time()) : $_GET['year'];
