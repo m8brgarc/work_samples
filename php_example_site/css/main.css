@@ -6,3 +6,24 @@
 .wrapper {
     padding: 10px !important;
 }
+
+.cal-head {
+    margin-top: 30px;
+}
+.cal-prev, .cal-next {
+    padding-top: 40px;
+    text-align: left;
+}
+.cal-next {
+    text-align: right;
+}
+
+.calendar td {
+    text-align: right;
+    vertical-align: top;
+    height: 100px;
+    border: 1px solid #808080;
+}
+.calendar th{
+    text-align: center;
+}

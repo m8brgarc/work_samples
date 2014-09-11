@@ -24,8 +24,10 @@
                 <?php if($logged_in){?>
                     <li <?=$page=='preferences.php'?'class="active"':'';?>><a href="preferences.php">Preferences</a></li>
                     <li <?=$page=='login.php'?'class="active"':'';?>><a href="logout.php">Logout</a></li>
+                <?php } else { ?>
+                    <li <?=$page=='login.php'?'class="active"':'';?>><a href="login.php">Login</a></li>
+                    <li <?=$page=='register.php'?'class="active"':'';?>><a href="register.php">Register</a></li>
                 <?php } ?>
-                <li <?=$page=='login.php'?'class="active"':'';?>><a href="login.php">Login</a></li>
             </ul>
         </section>
     </nav>
